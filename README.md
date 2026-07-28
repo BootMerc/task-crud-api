@@ -54,7 +54,7 @@ Restart the server after running that, then `GET /tasks` again — task 4 is sti
 
 ## Swagger UI
 
-![Swagger UI](swagger-screenshot.png)
+![Swagger UI](swagger.jpg)
 
 *(Placeholder — run the server, open `/docs`, try the full CRUD cycle with "Try it out", then drop your own screenshot in as `swagger-screenshot.png`.)*
 
