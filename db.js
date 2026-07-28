@@ -32,7 +32,7 @@ const statements = {
   remove: db.prepare('DELETE FROM tasks WHERE id = ?')
 };
 // SQLite stores `done` as 0/1 — convert back to a real boolean so the API
-// response shape never changes from what Assignment 1 returned.
+// response shape never changes from what Assignment 1 returned
 function serializeTask(row) {
   return { id: Number(row.id), title: row.title, done: Boolean(row.done) };
 }
