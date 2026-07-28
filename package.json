@@ -1,0 +1,17 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "A CRUD API for managing a to-do list, built with Express and SQLite.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
